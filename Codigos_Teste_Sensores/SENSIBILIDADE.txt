@@ -1,0 +1,22 @@
+SENSIBILIDADE
+
+A sensibilidade relativa dos sensores foi avaliada por meio da inclinação da regressão linear entre o duty cycle aplicado à fonte luminosa e as contagens registradas pelos canais F2 (425 nm), FZ (450 nm) e F3 (475 nm). Os três módulos apresentaram elevada linearidade, com coeficientes de determinação entre 0,9894 e 0,9990. No canal FZ, correspondente a 450 nm, foram obtidas sensibilidades de 155,73, 159,80 e 158,45 contagens/%PWM para os sensores 1, 2 e 3, respectivamente. Os desvios em relação à sensibilidade média de 158,00 contagens/%PWM permaneceram entre -1,43% e +1,14%, indicando elevada concordância de resposta entre os módulos nessa região espectral.
+
+O resultado mais interessante para o seu projeto é o FZ em 450 nm. Além de estar justamente na região espectral de maior interesse da fototerapia, foi o canal que apresentou a maior concordância entre os três módulos. As sensibilidades foram 155,73; 159,80; e 158,45 contagens/%PWM, correspondendo a desvios de apenas -1,43%, +1,14% e +0,29% em relação à média.
+
+Em F2, a dispersão entre módulos foi um pouco maior: de -4,05% a +4,73%. Em F3, a variação ficou entre -5,11% e +3,10%. Ainda assim, os três sensores mantiveram comportamento bastante semelhante.
+
+As equações individuais ficaram:
+
+$$ \textbf{F2 – 425 nm} $$ $$ S1:\quad y=162{,}24x+574{,}94 \qquad R^2=0{,}9904 $$ $$ S2:\quad y=177{,}09x+252{,}66 \qquad R^2=0{,}9990 $$ $$ S3:\quad y=167{,}93x+467{,}85 \qquad R^2=0{,}9933 $$
+
+Para FZ:
+
+$$ \textbf{FZ – 450 nm} $$ $$ S1:\quad y=155{,}73x+217{,}32 \qquad R^2=0{,}9987 $$ $$ S2:\quad y=159{,}80x+208{,}57 \qquad R^2=0{,}9988 $$ $$ S3:\quad y=158{,}45x+228{,}11 \qquad R^2=0{,}9986 $$
+
+E para F3:
+
+$$ \textbf{F3 – 475 nm} $$ $$ S1:\quad y=28{,}89x-101{,}20 \qquad R^2=0{,}9916 $$ $$ S2:\quad y=29{,}20x-115{,}96 \qquad R^2=0{,}9894 $$
+S3:y=26,87x−103,32R
+2
+=0,9900

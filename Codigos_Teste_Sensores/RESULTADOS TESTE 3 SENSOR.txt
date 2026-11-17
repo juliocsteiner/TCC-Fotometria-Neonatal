@@ -1,0 +1,65 @@
+===========================================
+ RESULTADOS SENSOR 1- REPETIBILIDADE
+===========================================
+PWM: 50%
+Leituras validas: 100
+
+Canal	Media	DP	CV(%)	Min	Max
+F1 405nm	3878.80	5.88	0.152	3865	3889
+F2 425nm	10160.62	20.05	0.197	10110	10190
+FZ 450nm	9960.01	4.65	0.047	9957	10005
+F3 475nm	5413.53	39.45	0.729	5325	5480
+F4 515nm	2126.56	25.83	1.215	2081	2179
+F5 550nm	1659.62	6.26	0.377	1649	1671
+FY 555nm	2163.32	1.96	0.091	2160	2167
+FXL 600nm	1885.86	12.92	0.685	1866	1911
+F6 640nm	1848.21	25.85	1.399	1803	1900
+F7 690nm	1415.19	5.36	0.379	1406	1425
+F8 745nm	1487.61	6.97	0.468	1476	1502
+NIR 855nm	1820.56	7.27	0.399	1808	1835
+VIS Clear	9735.38	2.67	0.027	9733	9760
+
+RESULTADOS SENSOR 2 - REPETIBILIDADE
+===========================================
+PWM: 50%
+Leituras validas: 100
+
+Canal	Media	DP	CV(%)	Min	Max
+F1 405nm	3754.08	6.80	0.181	3743	3778
+F2 425nm	10105.28	3.91	0.039	10092	10114
+FZ 450nm	9949.29	1.61	0.016	9949	9965
+F3 475nm	5827.77	40.24	0.690	5753	5887
+F4 515nm	2069.78	18.82	0.909	2039	2108
+F5 550nm	1658.41	6.12	0.369	1646	1673
+FY 555nm	2449.08	1.44	0.059	2445	2458
+FXL 600nm	2202.99	10.69	0.485	2184	2231
+F6 640nm	1769.44	22.07	1.247	1733	1814
+F7 690nm	1497.49	5.60	0.374	1488	1511
+F8 745nm	1752.56	7.79	0.445	1739	1770
+NIR 855nm	1896.09	7.55	0.398	1882	1917
+VIS Clear	9748.57	2.26	0.023	9737	9762
+
+
+RESULTADOS SENSOR 3 - REPETIBILIDADE
+===========================================
+PWM: 50%
+Leituras validas: 100
+
+Canal	Media	DP	CV(%)	Min	Max
+F1 405nm	3739.82	11.99	0.321	3721	3763
+F2 425nm	10176.19	8.09	0.079	10099	10182
+FZ 450nm	10025.39	10.20	0.102	9949	10031
+F3 475nm	5481.82	25.49	0.465	5375	5517
+F4 515nm	1642.46	22.13	1.347	1609	1688
+F5 550nm	1597.47	6.40	0.400	1587	1610
+FY 555nm	2315.76	5.64	0.244	2302	2326
+FXL 600nm	1424.75	11.22	0.788	1407	1447
+F6 640nm	1456.43	18.57	1.275	1429	1493
+F7 690nm	1146.67	5.22	0.455	1138	1157
+F8 745nm	1043.45	5.94	0.570	1034	1055
+NIR 855nm	1556.73	9.66	0.620	1541	1575
+VIS Clear	9799.35	9.37	0.096	9724	9805
+
+
+
+Sob condição de iluminação constante, com duty cycle de 50%, foram realizadas 100 aquisições consecutivas em cada sensor AS7343. Todos os canais apresentaram coeficiente de variação inferior a 1,4%, evidenciando elevada repetibilidade das medições. Nos canais de maior interesse para a fonte LED azul utilizada, especialmente 425 nm (F2) e 450 nm (FZ), os coeficientes de variação permaneceram abaixo de 0,2% nos três módulos avaliados. Esses resultados indicam boa estabilidade temporal das leituras e demonstram a adequação dos sensores para as próximas etapas de caracterização da resposta à intensidade luminosa.
